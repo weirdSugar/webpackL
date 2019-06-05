@@ -33,8 +33,9 @@ module.exports={
   devServer:{
     port:1000,
     host:'0.0.0.0',
-    inline:true,
-    hot:true,
+    inline:true,//热加载
+    hot:true,//模块热替换
+    // 两个一块开 重新加载改变的部分，HRM失败则刷新页面
     compress:true,
     overlay:{
       errors:true
