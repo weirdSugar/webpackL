@@ -1,0 +1,14 @@
+{
+  "name": "babel-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development web-dev-server --mode development",
+    "watch": "cross-env NODE_ENV=development webpack --watch --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
