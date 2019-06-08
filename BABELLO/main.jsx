@@ -3,6 +3,6 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.querySelector('#wrapper')
+  <h1>Hello,qarld!</h1>,
+  document.querySelector('body')
 );
